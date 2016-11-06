@@ -13,16 +13,16 @@ import org.w3c.dom.Text;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.learn.recyclerview1.R;
-import model.hotel;
+import model.Hotel;
 
 /**
  * Created by user_ on 11/3/2016.
  */
 
 public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder>{
-    ArrayList<hotel> hotelList;
+    ArrayList<Hotel> hotelList;
 
-    public HotelAdapter(ArrayList<hotel> hotelList){
+    public HotelAdapter(ArrayList<Hotel> hotelList){
         this.hotelList = hotelList;
     }
 
@@ -36,7 +36,7 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        hotel hotel = hotelList.get(position);
+        Hotel hotel = hotelList.get(position);
         holder.tvJudul.setText(hotel.judul);
         holder.tvDeskripsi.setText(hotel.deskripsi);
         holder.ivFoto.setImageDrawable(hotel.foto);
