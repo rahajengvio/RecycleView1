@@ -7,3 +7,6 @@
 ##Nama Sekolah : SMK Telkom Malang
 
 ##Nama Aplikasi : RecycleView1
+
+##Screenshoot aplikasi
+![rv1](https://cloud.githubusercontent.com/assets/22489784/20049326/f5102418-a4f4-11e6-835c-38498bce2220.JPG)
